@@ -1,6 +1,10 @@
-prenom1 = "Laura"
-prenom2 = "PM"
+# une variable, c'est comme un "carton" dans lequel on peut mettre des données
+my_var = "Pauline"
+my_var2 = "PM"
 
-ma_variable = f"{prenom1} est allée se promener avec {prenom2}"
+my_template = f"Hello {my_var}!"
+my_email_template = f"""Ceci est un texte multiglignes, dans lequel
 
-print(ma_variable)
+je peux parler de plein de choses et raconter ma life, n'est-ce pas {my_var2}?"""
+
+print(my_email_template)
