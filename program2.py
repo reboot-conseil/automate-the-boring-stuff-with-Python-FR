@@ -1,4 +1,3 @@
-# COMMENTAIRE: cette variable sert à stocker le nom du récipendiaire du mail
 prenom1 = "Laura"
 prenom2 = "PM"
 
